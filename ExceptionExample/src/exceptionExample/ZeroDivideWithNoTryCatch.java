@@ -4,14 +4,9 @@
  */
 package exceptionExample;
 
-public class ExceptionExample {
-
+public class ZeroDivideWithNoTryCatch {
 	public static void main(String[] args) {
-		int gamma = 42;
-		int delta = 0;
-		delta = gamma / delta;	// run-time error (exception)
-	
-
+		int alpha;
+		alpha = 3 / 0; // force a zero-divide
 	}
-
 }
